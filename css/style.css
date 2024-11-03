@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root{
+    --roxo: #6d37af;
+    --branco: #ffffff;
+    --cinza: #cacaca;
+    --cinza-claro: #e6e6e6;
+    --fonte-padrão: "Nunito Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.corpo{
+    display: grid;
+    font-family: var(--fonte-padrão);
+    
+}
+.principal{
+    padding: 0 1em;
+}
+
+.cabeçalho{
+    font-size: 1em;
+    padding: 0.5em;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-family: var(--fonte-padrão);
+    font-weight: 700;
+    
+}
+.centralizado{
+    text-align: center;
+}
+.cadastroText{
+    padding: 1em 1.5em 1em 1.5em;
+}
+.cadastroText__titulo{
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+}
+.cadastroText__subtitulo{
+    font-weight: lighter;
+}
+.containerInput{
+    padding: 1em 1.5em 1em 1.5em;
+    margin: 0 1em;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.linhaInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+#produto, #valor{
+    padding: 0.5em;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 3px;
+    outline:0;
+}
+button{
+    padding: 0.5em 1em;
+    background-color: var(--roxo);
+    border: 0.5px;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: 600;
+}
+.containerTabela{
+    margin: 1em;
+    
+}
+
+
+table{
+    border: 1px solid var(--cinza-claro);
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+table td, table th{
+    border: 1px solid var(--cinza-claro);
+}
+
+th{
+    padding: 0.2em 0.5em;
+    background-color: var(--cinza);
+    font-weight: 700;
+}
+
+table td img{
+    width: 22px;
+}
+
